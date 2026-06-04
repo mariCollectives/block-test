@@ -1,55 +1,119 @@
-=== My First Block ===
-Contributors:      The WordPress Contributors
-Tags:              block
-Tested up to:      6.8
-Stable tag:        0.1.0
-License:           GPL-2.0-or-later
-License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+# WordPress Gutenberg + ReactJS Refresher
 
-Example block scaffolded with Create Block tool.
+A personal WordPress development refresher project focused on modern Gutenberg block development using ReactJS.
 
-== Description ==
+## 👩‍💻 Developer
 
-This is the long description. No limit, and you can use Markdown (as well as in the following sections).
+**Maricon Espinosa**
 
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+---
 
-== Installation ==
+## 📚 Project Goal
 
-This section describes how to install the plugin and get it working.
+This repository is intended to refresh and strengthen knowledge in:
 
-e.g.
+- WordPress Core Development
+- Custom Themes
+- Custom Plugins
+- Gutenberg Block Development
+- ReactJS inside WordPress
+- WordPress Data Layer (`@wordpress/data`)
+- Block Editor APIs
+- Inspector Controls
+- Dynamic Blocks
+- Custom Post Types
+- Custom Taxonomies
+- WordPress Hooks & Filters
+- REST API Integration
+- WordPress VIP Development Concepts
 
-1. Upload the plugin files to the `/wp-content/plugins/my-first-block` directory, or install the plugin through the WordPress plugins screen directly.
-1. Activate the plugin through the 'Plugins' screen in WordPress
+---
 
+## 🛠 Tech Stack
 
-== Frequently Asked Questions ==
+- WordPress
+- PHP
+- JavaScript (ESNext)
+- ReactJS
+- Gutenberg Block Editor
+- Webpack
+- Node.js
+- npm
 
-= A question that someone might have =
+---
 
-An answer to that question.
+## 📂 Learning Roadmap
 
-= What about foo bar? =
+### Day 1 — WordPress Fundamentals
+- Install local WordPress
+- Create custom theme
+- Register Custom Post Types
+- Register Taxonomies
+- Understand Hooks & Filters
 
-Answer to foo bar dilemma.
+### Day 2 — Gutenberg Basics
+- Create custom block
+- Block registration
+- block.json structure
+- Attributes
+- Edit & Save functions
 
-== Screenshots ==
+### Day 3 — Advanced Gutenberg
+- Inspector Controls
+- RichText
+- Media Upload
+- InnerBlocks
+- Block Supports
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. This is the second screen shot
+### Day 4 — Dynamic Blocks
+- PHP Render Callback
+- Server-side rendering
+- REST API integration
 
-== Changelog ==
+### Day 5 — React & Data Stores
+- @wordpress/data
+- Custom stores
+- Selectors
+- Actions
+- Resolvers
 
-= 0.1.0 =
-* Release
+### Day 6 — WordPress VIP Concepts
+- TypeScript integration
+- Data transformations
+- View Models
+- Pug templates
+- Enterprise WordPress architecture
 
-== Arbitrary section ==
+---
 
-You may provide arbitrary sections, in the same format as the ones above. This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation." Arbitrary sections will be shown below the built-in sections outlined above.
+## 🚀 Getting Started
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Start Development
+
+```bash
+npm start
+```
+
+### Build Production Files
+
+```bash
+npm run build
+```
+
+---
+
+## 📖 Notes
+
+This repository serves as a hands-on learning environment for refreshing modern WordPress development practices, particularly Gutenberg and React-based workflows commonly used in enterprise WordPress and WordPress VIP projects.
+
+---
+
+## 📄 License
+
+For educational and personal learning purposes.
